@@ -30,11 +30,8 @@ export enum ModelProvider {
   Baichuan = 'baichuan',
   Bedrock = 'bedrock',
   Cloudflare = 'cloudflare',
+  Cohere = 'cohere',
   DeepSeek = 'deepseek',
-  /**
-   * @deprecated
-   */
-  Doubao = 'doubao',
   FireworksAI = 'fireworksai',
   GiteeAI = 'giteeai',
   Github = 'github',
@@ -43,6 +40,7 @@ export enum ModelProvider {
   Higress = 'higress',
   HuggingFace = 'huggingface',
   Hunyuan = 'hunyuan',
+  InfiniAI = 'infiniai',
   InternLM = 'internlm',
   Jina = 'jina',
   LMStudio = 'lmstudio',
@@ -58,6 +56,7 @@ export enum ModelProvider {
   Perplexity = 'perplexity',
   Qwen = 'qwen',
   SambaNova = 'sambanova',
+  Search1API = 'search1api',
   SenseNova = 'sensenova',
   SiliconCloud = 'siliconcloud',
   Spark = 'spark',
@@ -71,6 +70,7 @@ export enum ModelProvider {
   Volcengine = 'volcengine',
   Wenxin = 'wenxin',
   XAI = 'xai',
+  Xinference = 'xinference',
   ZeroOne = 'zeroone',
   ZhiPu = 'zhipu',
 }
